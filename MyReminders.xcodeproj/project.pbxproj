@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		205628952B0DF862002021D7 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205628942B0DF862002021D7 /* DetailsView.swift */; };
+		205628992B0E4BCE002021D7 /* TagsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205628982B0E4BCE002021D7 /* TagsView.swift */; };
 		20AC638C2B04DE170014AEAE /* MyRemindersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AC638B2B04DE170014AEAE /* MyRemindersApp.swift */; };
 		20AC638E2B04DE170014AEAE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AC638D2B04DE170014AEAE /* ContentView.swift */; };
 		20AC63902B04DE190014AEAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20AC638F2B04DE190014AEAE /* Assets.xcassets */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		205628942B0DF862002021D7 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		205628982B0E4BCE002021D7 /* TagsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagsView.swift; sourceTree = "<group>"; };
 		20AC63882B04DE170014AEAE /* MyReminders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyReminders.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20AC638B2B04DE170014AEAE /* MyRemindersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRemindersApp.swift; sourceTree = "<group>"; };
 		20AC638D2B04DE170014AEAE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -96,6 +100,8 @@
 			children = (
 				20AC638B2B04DE170014AEAE /* MyRemindersApp.swift */,
 				20AC638D2B04DE170014AEAE /* ContentView.swift */,
+				205628982B0E4BCE002021D7 /* TagsView.swift */,
+				205628942B0DF862002021D7 /* DetailsView.swift */,
 				20AC638F2B04DE190014AEAE /* Assets.xcassets */,
 				20AC63912B04DE190014AEAE /* Preview Content */,
 			);
@@ -259,6 +265,8 @@
 			files = (
 				20AC638E2B04DE170014AEAE /* ContentView.swift in Sources */,
 				20AC638C2B04DE170014AEAE /* MyRemindersApp.swift in Sources */,
+				205628952B0DF862002021D7 /* DetailsView.swift in Sources */,
+				205628992B0E4BCE002021D7 /* TagsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
